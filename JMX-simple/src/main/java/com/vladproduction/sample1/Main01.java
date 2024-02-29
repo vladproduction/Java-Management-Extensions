@@ -25,8 +25,11 @@ public class Main01 {
         Integer age = (Integer) server.getAttribute(key, "Age");
         System.out.println("age = " + age);
 
+
+        person.process();
         Object processResult = server.invoke(key, "process", new Object[0], new String[0]);
         System.out.println("processResult = " + processResult);
+        person.calculate("avg", 1, 2);
         String action = "avg";
         int a = 1;
         int b = 2;
