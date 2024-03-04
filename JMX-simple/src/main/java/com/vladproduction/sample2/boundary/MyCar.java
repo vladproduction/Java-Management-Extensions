@@ -4,12 +4,8 @@ import java.beans.PropertyChangeListener;
 import java.beans.PropertyChangeSupport;
 
 public class MyCar {
-
     private String name;
-
     private PropertyChangeSupport support = new PropertyChangeSupport(this);
-
-
 
     public String getName() {
         return name;
@@ -20,7 +16,7 @@ public class MyCar {
         this.name = name;
     }
 
-    public void add(PropertyChangeListener listener){
+    public void addListener(PropertyChangeListener listener){
         support.addPropertyChangeListener(listener);
     }
 }

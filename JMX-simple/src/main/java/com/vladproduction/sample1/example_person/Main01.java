@@ -1,4 +1,4 @@
-package com.vladproduction.sample1;
+package com.vladproduction.sample1.example_person;
 
 import javax.management.Attribute;
 import javax.management.MBeanServer;

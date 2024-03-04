@@ -7,8 +7,8 @@ public class Main {
         MyCarListenerB listenerB = new MyCarListenerB();
 
         MyCar myCar = new MyCar();
-        myCar.add(listenerA); //connection to listener
-        myCar.add(listenerB);
+        myCar.addListener(listenerA); //connection to listener
+        myCar.addListener(listenerB);
         myCar.setName("BMW");
         myCar.setName("BMW-X5");
 

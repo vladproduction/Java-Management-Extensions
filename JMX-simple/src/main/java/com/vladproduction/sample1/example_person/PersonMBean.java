@@ -1,4 +1,4 @@
-package com.vladproduction.sample1;
+package com.vladproduction.sample1.example_person;
 
 public interface PersonMBean {
 

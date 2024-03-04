@@ -1,4 +1,4 @@
-package com.vladproduction.sample1;
+package com.vladproduction.sample1.example_person;
 
 public class Person implements PersonMBean {
 
@@ -30,7 +30,7 @@ public class Person implements PersonMBean {
     @Override
     public double calculate(String action, int a, int b) {
         if("avg".equals(action)){
-            return (0.0+a+b)/2;
+            return (0.0+a+b)/2; // as double 0.0
         }else return a+b;
     }
 
