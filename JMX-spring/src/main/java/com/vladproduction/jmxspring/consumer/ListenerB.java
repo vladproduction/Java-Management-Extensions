@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 
 public class ListenerB implements MessageListener {
 
-    @JmsListener(destination = "Queue-jmx-spring")
+//    @JmsListener(destination = "Queue-jmx-spring")
     public void onMessage(Message message) {
        try{
            System.out.println("onMessage-ListenerB");
