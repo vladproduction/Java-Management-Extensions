@@ -6,10 +6,10 @@ import jakarta.jms.TextMessage;
 import org.springframework.jms.annotation.JmsListener;
 import org.springframework.stereotype.Component;
 
-//@Component
+@Component
 public class ListenerA {
 
-//    @JmsListener(destination = "Queue-jmx-spring")
+    @JmsListener(destination = "Queue-jmx-spring")
     public void onMessage(Message message) throws JMSException {
         System.out.println("onMessage-ListenerA");
         if(message instanceof TextMessage){
