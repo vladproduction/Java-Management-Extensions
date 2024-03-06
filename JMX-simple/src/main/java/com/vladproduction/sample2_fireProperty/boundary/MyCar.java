@@ -16,6 +16,7 @@ public class MyCar {
         this.name = name;
     }
 
+    //method for connect our MyCar and Listener
     public void addListener(PropertyChangeListener listener){
         support.addPropertyChangeListener(listener);
     }
