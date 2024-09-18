@@ -1,5 +1,7 @@
-JMX
----------------------------------------------------------------------
+# Java-Management-Extensions
+**This repository is a collection of projects by JMX in Java;**
+##
+
 JMX stands for Java Management Extensions. 
 It's a framework designed to manage and monitor applications, resources, and services built using Java technology. It offers a standardized and flexible approach.
 
